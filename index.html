@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Sistema Bancário</h1>
+    <form action="/depositar" method="post">
+        <label for="valor">Depósito:</label>
+        <input type="text" id="valor" name="valor">
+        <button type="submit">Depositar</button>
+    </form>
+    <form action="/sacar" method="post">
+        <label for="valor">Saque:</label>
+        <input type="text" id="valor" name="valor">
+        <button type="submit">Sacar</button>
+    </form>
+    <form action="/transferir" method="post">
+        <label for="valor">Transferir:</label>
+        <input type="text" id="valor" name="valor">
+        <label for="conta">Conta:</label>
+        <input type="text" id="conta" name="conta">
+        <button type="submit">Transferir</button>
+    </form>
+    <a href="/extrato">Ver Extrato</a>
+</body>
+</html>
