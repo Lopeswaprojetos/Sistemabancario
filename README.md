@@ -25,6 +25,7 @@ templates/: Diretório contendo os templates HTML index.html e extrato.html.
 Aplicação Web
 Clone o repositório:
 [git clone https://github.com/username/sistema-bancario.git](https://github.com/Lopeswaprojetos/Sistemabancario.git)
+
 cd sistema-bancario
 
 Instale as dependências:
@@ -32,11 +33,13 @@ pip install Flask
 
 Execute a aplicação:
 python app.py
+
 Acesse a aplicação no seu navegador em http://127.0.0.1:5000.
 
 Script de Linha de Comando
 Clone o repositório:
 git clone https://github.com/Lopeswaprojetos/sistema-bancario.git
+
 cd sistema-bancario
 
 Execute o script:
